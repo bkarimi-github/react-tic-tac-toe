@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import Game from './Game';
 
+/*
 function App() {
   return (
     <div className="App">
@@ -19,6 +21,17 @@ function App() {
         </a>
       </header>
     </div>
+  );
+}
+*/
+function App()
+{
+  return (
+    <div>
+      <h1>Hello from React Tic-Tac-Toe</h1>
+      <Game />
+    </div>
+    
   );
 }
 
